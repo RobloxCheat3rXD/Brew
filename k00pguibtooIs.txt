@@ -1,3 +1,7 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{
+Title = "credits to @noname",
+Text = "for making the realm make sure to sub to his yt @k00previvai", 
+Duration = 8 
 --// k00pgui Layout Only (Full Lua)
 local player = game.Players.LocalPlayer
 local gui = Instance.new("ScreenGui")
