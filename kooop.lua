@@ -1,10 +1,11 @@
-game.ReplicatedStorage.RemoteEvent.OnClientEvent:Connect(function()
-   starterGui:SetCore("SendNotifcation", (
-            Title = "text here"
-            Text = "text here"
-            Duration = 10
-     ))
-end)
+--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+game:GetService("StarterGui"):SetCore("SendNotification",{
+Title = "Script loaded enjoy!",
+Text = "by me", 
+Duration = 30 
+})
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Players = game:GetService("Players")
 local CoreGui = game:GetService("CoreGui")
